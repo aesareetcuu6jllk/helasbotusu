@@ -41,13 +41,13 @@ mm = w['start_msg']
 db = uu('dbs/elhakem.ss', 'rshq')
 print(db)
 bk = mk(row_width=1).add(btn('رجوع', callback_data='back'))
-bot = TeleBot(token="7742397771:AAEX4Ie0KnKwm7KG_aSZARfAV0uKKyouyO8") # توكن بوت الرشق الاساسي هنا
+bot = TeleBot(token="7135902375:AAFIGzAOHu14VLPVJhtjbCPFst0_tiTHAJ0") # توكن بوت الرشق الاساسي هنا
 if not db.get('accounts'):
     db.set('accounts', [])
     pass
 db.delete("force")
-admin = 1490479382 #الادمن
-db.set('admins', [admin, 1490479382])
+admin = 1459165891 #الادمن
+db.set('admins', [admin, 1459165891])
 if not db.get("admins"):
     db.set('admins', [admin, ])
 if not db.get('badguys'):
@@ -142,7 +142,7 @@ def start_message(message):
         btn3 = btn('معلومات حسابك 🗃', callback_data='account')
         btn4 = btn('تجميع الرصيد ❇️', callback_data='collect')
         btn5 = btn('تحويل نقاط ♻️', callback_data='send')
-        btn6 = btn('قناة البوت 🩵', url='https://t.me/H_H6H')
+        btn6 = btn('قناة البوت 🩵', url='https://t.me/ALR10Q')
         btn7 = btn('شراء رصيد 💰', callback_data='buy')
         keys.add(btn1)
         keys.add(btn2)
@@ -168,7 +168,7 @@ def start_message(message):
     btn3 = btn('معلومات حسابك 🗃', callback_data='account')
     btn4 = btn('تجميع الرصيد ❇️', callback_data='collect')
     btn5 = btn('تحويل نقاط ♻️', callback_data='send')
-    btn6 = btn('قناة البوت 🩵', url='https://t.me/H_H6H')
+    btn6 = btn('قناة البوت 🩵', url='https://t.me/ALR10Q')
     btn7 = btn('شراء رصيد 💰', callback_data='buy')
     keys.add(btn1)
     keys.add(btn2)
@@ -336,7 +336,7 @@ def c_rs(call):
         btn3 = btn('معلومات حسابك 🗃', callback_data='account')
         btn4 = btn('تجميع الرصيد ❇️', callback_data='collect')
         btn5 = btn('تحويل نقاط ♻️', callback_data='send')
-        btn6 = btn('قناة البوت 🩵', url='https://t.me/H_H6H')
+        btn6 = btn('قناة البوت 🩵', url='https://t.me/ALR10Q')
         btn7 = btn('شراء رصيد 💰', callback_data='buy')
 
         keys.add(btn1)
@@ -477,13 +477,13 @@ def c_rs(call):
 
 يمكنك شراء النقاط والاشتراك ال VIP عن طريق مالك البوت 🦦❤️‍🔥
 
-يوزر مالك البوت 🫂👈🏻 @Y_K_0Y
+يوزر مالك البوت 🫂👈🏻 @S_Y_i
 
 ويمكنك تنصيب بوت مثل هذا والمزيد من البوتات الاخري عن طريق المطور 👾💕
 
-✯𝑫𝒆𝒗 »» @Y_K_0Y
+✯𝑫𝒆𝒗 »» @S_Y_i
 
-✯𝑫𝒆𝒗 »» @SD_QI'''
+✯𝑫𝒆𝒗 »» @ALR10Q'''
         bot.edit_message_text(text=hakem,chat_id=cid,message_id=mid,reply_markup=keys)
     if data == 'dump_votes':
         user_id = call.from_user.id
